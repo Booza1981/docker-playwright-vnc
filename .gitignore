@@ -1,0 +1,23 @@
+# Ignore screenshots generated during testing
+data/*.png
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Docker volumes and data
+data/tmp/
+
+# Temporary files
+*.log
+*.tmp
+.DS_Store
+
+# Build artifacts
+*.o
+*.so
